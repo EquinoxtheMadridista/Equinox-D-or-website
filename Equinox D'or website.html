@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equinox d'or</title>
+  <style>
+    body {
+      background-color: black;
+      color: lightgray;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .decade-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+      padding: 10px;
+      border: 1px solid lightgray;
+      cursor: pointer;
+    }
+    .decade-link:hover {
+      background-color: #222;
+    }
+    .gold {
+      color: gold;
+    }
+    .silver {
+      color: silver;
+    }
+    .bronze {
+      color: #cd7f32;
+    }
+    .regular {
+      color: lightgray;
+    }
+    .section-link {
+      margin: 20px auto;
+      padding: 15px;
+      width: 80%;
+      background-color: #111;
+      text-align: center;
+      border: 1px solid #555;
+      cursor: pointer;
+    }
+    .section-link:hover {
+      background-color: #222;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the <span class="gold">Equinox d'or</span></h1>
+  <p style="text-align:center;">Where I give my personal opinion for who was the best football player in the world for every year since 1950</p>
+
+  <div class="section-link"><a href="Countries with the most Equinox d'ors.html">🌍 Countries with Most Equinox d'or Wins</a></div>
+  <div class="section-link"><a href="Clubs with most equinox d'or wins.html">🏟️ Clubs with Most Equinox d'or Wins</a></div>
+  <div class="section-link"><a href="Players with the most equinox d'or wins.html">⭐ Players with Most Equinox d'or Wins</a></div>
+  <div class="section-link"><a href="Equinox D'or ranking criteria.html">📊 How the Ranking Works</a></div>
+
+  <h2>Browse by Decade</h2>
+  <div class="decade-link"><a href="1950s Equinox d'or.html">📅 1950s</a></div>
+  <div class="decade-link"><a href="1960s Equinox d'or.html">📅 1960s</a></div>
+  <div class="decade-link"><a href="1970s Equinox d'or.html">📅 1970s</a></div>
+  <div class="decade-link"><a href="1980s Equinox d'or.html">📅 1980s</a></div>
+  <div class="decade-link"><a href="Equinox D'or 1990s.html">📅 1990s</a></div>
+  <div class="decade-link"><a href="Equinox D'or 2000s.html">📅 2000s</a></div>
+  <div class="decade-link"><a href="2010 Equinox D'or.html">📅 2010s</a></div>
+  <div class="decade-link"><a href="2020s Equinox D'or.html">📅 2020s</a></div>
+
+  <script>
+    // Example JavaScript functionality (expand as needed)
+    document.querySelectorAll('.decade-link, .section-link').forEach(el => {
+      el.addEventListener('click', () => {
+        el.style.backgroundColor = '#333';
+        setTimeout(() => { el.style.backgroundColor = '#111'; }, 300);
+      });
+    });
+  </script>
+</body>
+</html>
